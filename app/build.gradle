@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.voicebench.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.voicebench.app'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+def cachedKotlinStdlib = file('C:/Users/Microsoft/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/2.2.10/30de6faa127a4a012db8e71bf1b9c0a99b1402b2/kotlin-stdlib-2.2.10.jar')
+def cachedCommonsCompress = file('C:/Users/Microsoft/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.27.1/a19151084758e2fbb6b41eddaa88e7b8ff4e6599/commons-compress-1.27.1.jar')
+def cachedCommonsIo = file('C:/Users/Microsoft/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.16.1/377d592e740dc77124e0901291dbfaa6810a200e/commons-io-2.16.1.jar')
+
+dependencies {
+    implementation files('libs/sherpa-onnx-1.13.5.aar')
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.2.10'
+    if (cachedCommonsCompress.exists()) {
+        implementation files(cachedCommonsCompress)
+    } else {
+        implementation 'org.apache.commons:commons-compress:1.27.1'
+    }
+    if (cachedCommonsIo.exists()) {
+        implementation files(cachedCommonsIo)
+    } else {
+        implementation 'commons-io:commons-io:2.16.1'
+    }
+}

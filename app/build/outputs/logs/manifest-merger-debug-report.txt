@@ -1,0 +1,66 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:1:1-23:12
+INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:1:1-23:12
+MERGED from [sherpa-onnx-1.13.5.aar] C:\Users\Microsoft\.gradle\caches\9.6.1\transforms\4fc73a194446b99c13cbdc8e60c950a7\transformed\sherpa-onnx-1.13.5\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:1:11-69
+queries
+ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:2:5-6:15
+intent#action:name:android.intent.action.TTS_SERVICE
+ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:3:9-5:18
+action#android.intent.action.TTS_SERVICE
+ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:4:13-72
+	android:name
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:4:21-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:7:22-64
+application
+ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:9:5-22:19
+INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:9:5-22:19
+	android:extractNativeLibs
+		INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml
+	android:supportsRtl
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:11:9-35
+	android:allowBackup
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.voicebench.app.MainActivity
+ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:14:9-21:20
+	android:exported
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from E:\work\androidTEST\app\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml
+INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml
+MERGED from [sherpa-onnx-1.13.5.aar] C:\Users\Microsoft\.gradle\caches\9.6.1\transforms\4fc73a194446b99c13cbdc8e60c950a7\transformed\sherpa-onnx-1.13.5\AndroidManifest.xml:5:5-44
+MERGED from [sherpa-onnx-1.13.5.aar] C:\Users\Microsoft\.gradle\caches\9.6.1\transforms\4fc73a194446b99c13cbdc8e60c950a7\transformed\sherpa-onnx-1.13.5\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\work\androidTEST\app\src\main\AndroidManifest.xml
